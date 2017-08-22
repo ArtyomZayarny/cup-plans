@@ -1,0 +1,150 @@
+p {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	background-color: #fdde7e;
+	max-width: 1200px;
+	max-height: 600px;
+	padding: 50px 0;
+	justify-content: space-around;
+	align-items: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	.cup {
+		background-color: #fff;
+		max-width: 360px;
+		max-height: 441px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 5px;
+		padding: 25px;
+		&__price {
+			color: #02995b;
+			font-family: 'Arial', sans-serif;
+			font-size: 70px;
+			font-weight: 700;
+			line-height: 24px;
+			padding: 42px 0 23px 0;
+		}
+		&__smoke {
+			padding-bottom: 10px;
+		}
+		&__img {
+			padding: 0 3px 38px 18px;
+		}
+		&__title {
+			padding-bottom: 115px;
+			.cup__title--name {
+				font-family: 'Arial', sans-serif;
+				font-size: 56px;
+				font-weight: 400;
+				line-height: 24px;
+				padding-bottom: 35px;
+			}
+			.cup__title--desc {
+				font-family: 'Arial', sans-serif;
+				ont-size: 20px;
+				font-weight: 300;
+				line-height: 26px;
+			}
+		}
+	}
+	.cup-gold {
+		background-color: #fff;
+		max-width: 360px;
+		max-height: 500px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 5px;
+		padding: 25px;
+		&__price {
+			color: #02995b;
+			font-family: 'Arial', sans-serif;
+			font-size: 70px;
+			font-weight: 700;
+			line-height: 24px;
+			padding: 42px 0 23px 0;
+		}
+		&__smoke {
+			padding-bottom: 10px;
+		}
+		&__img {
+			padding: 0 3px 38px 18px;
+		}
+		&__title {
+			padding-bottom: 115px;
+			.cup-gold__title--name {
+				font-family: 'Arial', sans-serif;
+				font-size: 56px;
+				font-weight: 400;
+				line-height: 24px;
+				padding-bottom: 35px;
+			}
+			.cup-gold__title--desc {
+				font-family: 'Arial', sans-serif;
+				ont-size: 20px;
+				font-weight: 300;
+				line-height: 26px;
+			}
+		}
+	}
+	.cup-silver {
+		background-color: #fff;
+		max-width: 360px;
+		max-height: 441px;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: 5px;
+		padding: 25px;
+		&__price {
+			color: #02995b;
+			font-family: 'Arial', sans-serif;
+			font-size: 70px;
+			font-weight: 700;
+			line-height: 24px;
+			padding: 42px 0 23px 0;
+		}
+		&__smoke {
+			padding-bottom: 10px;
+		}
+		&__img {
+			padding: 0 3px 38px 18px;
+		}
+		&__title {
+			padding-bottom: 115px;
+			.cup-silver__title--name {
+				font-family: 'Arial', sans-serif;
+				font-size: 56px;
+				font-weight: 400;
+				line-height: 24px;
+				padding-bottom: 35px;
+			}
+			.cup-silver__title--desc {
+				font-family: 'Arial', sans-serif;
+				ont-size: 20px;
+				font-weight: 300;
+				line-height: 26px;
+			}
+		}
+	}
+}
